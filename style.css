@@ -1,0 +1,222 @@
+.logo{
+    width: 210px;
+    height: 65px;
+    margin-left: 1px;
+    margin-top: -2px;
+    margin-right: 47px;
+}
+.navitem2{
+    font-family: "Avenir Next Condensed";
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-top: 2px;
+    margin-right: 25px;
+}
+.navitem2:hover{
+    color: #D7243E;
+}
+.navbar1{
+    height: 45px;
+}
+.navlink{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #cbc3c3;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.navlink:hover{
+    color: #D7243E;
+}
+.navitem1{
+    margin-top: 22px;
+    margin-bottom: 6px;
+    margin-left: 39px;
+}
+.navbar2{
+    height: 70px;
+    box-shadow: 3px 3px 5px #afa2a2;
+}
+
+
+
+.footer1 {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+.row {
+    padding: 1em 1em;
+}
+.row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+}
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+}
+.fbigtext, #liitu {
+    width: 100%;
+    text-align: left;
+    color: #000000;
+    font-size: 1.4em;
+    white-space: nowrap;
+}
+.lingid {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+li:not(:first-child) {
+    margin-top: 0.8em;
+}
+.lingid .aboutlink a {
+    color: #a7a7a7;
+    text-decoration: none;
+}
+.lingid .aboutlink a:hover {
+    color: #2a8ded;
+    text-decoration: none;
+}
+.about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+}
+input,
+button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+button {
+    background-color: #D7243E;
+    color: white;
+}
+div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+.social i {
+    color: #bac6d9;
+}
+
+.copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+}
+.footer-menu{
+    float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+    text-decoration: none;
+}
+.footer-menu a:hover{
+    color: #27bcda;
+    text-decoration: none;
+}
+.copyright p {
+    font-size: 0.9em;
+    text-align: right;
+}
+
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+.carousel-caption {
+    text-shadow: 0 1px 4px rgba(0,0,0,.9);
+    font-size:17px
+}
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+.item:nth-child(1) {
+    background: url('https://vapiano.ee/wp-content/uploads/2020/11/Guests-Terrace-11-Low-Res.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.item:nth-child(2) {
+    background: url('https://vapiano.ee/wp-content/uploads/2020/11/Pasta-Gamberetti-Low-Res.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.vaata{
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: -200px;
+}
+
+.row, .column{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.texth3{
+    text-align:center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.rowimg{
+    height: 300px;
+}
