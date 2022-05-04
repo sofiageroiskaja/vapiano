@@ -1,37 +1,38 @@
 .eripakkumisedtext{
-    margin-top: -243px;
+    margin-top: -35px;
     margin-left: -8px;
-    height: 80px;
+    height: 90px;
 }
 .eripakkumisedtext p{
     font-family: Vapideco, Helvetica, Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 28px;
     text-align: center;
     margin-top: 75px;
 }
 .eripakkumised{
-    background-color: #232222;
-    height: 400px;
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 420px;
     margin-left: -10px;
     margin-right: -10px;
 }
 #eributton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 300px;
+    margin: auto;
 }
 #eributton button{
-    height: 35px;
+    height: 45px;
+    border-radius: 8px;
+    font-family: "Barlow", Sans-serif, serif;
     background-color: #df002d;
     color: white;
     border: #df002d ;
-    border-radius: 4px;
-    font-family: Vapideco, Helvetica, Arial, sans-serif;
-    font-weight: 200;
-    padding: 8px;
     font-size: 20px;
-    margin-top: -10px;
+    margin-left: 40px;
+    margin-top: -30px;
 }
 .out {
     scale: 0.6;
@@ -50,9 +51,13 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    transition: transform ease 0.3s;
+    transition: transform ease-in 0.9s;
 }
-.in:hover { transform: scale(1.2); }
+.in:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: 1s ease-in;
+}
 
 #in1{
     background-image: url("images/student.jpg");
