@@ -1,0 +1,114 @@
+hr{
+    width: 98.5%;
+    border-width: 1px;
+    background-color: #cecbcb
+}
+.vaptext, .liitu, .infocontainer, .contactcontainer{
+    display:  inline-block;
+}
+.footerlogo{
+    scale: 0.55;
+    margin-left: -200px;
+    margin-top: -20px;
+}
+.footer p{
+    width: 350px;
+    font-family: Vapideco, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 30px;
+    line-height: 1.2;
+}
+.readmore{
+    display: block;
+    color: #df002d;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: -30px;
+}
+.readmore:hover{
+    text-decoration: none;
+    color: #a10526;
+}
+.fa{
+    background-color: #df002d;
+    scale: 1.7;
+    color: white;
+    border-radius: 50px;
+}
+.fa-facebook{
+    margin-left: 40px;
+    padding: 8px 12px;
+}
+.fa-instagram{
+    margin-left: 30px;
+    padding: 8px 10px;
+}
+.taaskasutus{
+    scale: 0.5;
+    margin-left: -20px;
+}
+
+.liitubtn{
+    display: block;
+    height: 45px;
+    width: 100px;
+    border-radius: 8px;
+    font-family: "Barlow", Sans-serif, serif;
+    background-color: #df002d;
+    color: white;
+    border: #df002d ;
+    font-size: 20px;
+    margin: auto;
+}
+.liitubtn:hover{
+    background-color: #a10526;
+}
+.info, .contact{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 2;
+}
+.info a , .contact a{
+    text-decoration: none;
+    font-family: Vapideco, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #918b8b;
+}
+.footer_second{
+    height: 60px;
+    background-color: #232222;
+}
+.footer_second p{
+    line-height: 3;
+    font-size: 20px;
+    text-align: center;
+    color: #e0dddd;
+}
+.vaptext{
+    width: 450px;
+}
+.liitu{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.liitu input{
+    height: 45px;
+    width: 285px;
+    margin-left: -5px;
+    margin-bottom: 50px;
+}
+.infocontainer{
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 120px;
+}
+.contactcontainer{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 120px;
+}
