@@ -1,33 +1,38 @@
 .search{
-    height: 150px;
+    height: 210px;
     padding: 20px 40px 40px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    width: 1000px;
-    box-shadow: 3px 3px 3px 5px #afa2a2;
+    width: 1200px;
+    box-shadow: -1px 1px 2px 1px #afa2a2;
 
 }
 .search img {
-    width: 450px;
-    height: 130px;
-    margin-top: 15px;
+    width: 460px;
+    height: 190px;
+    margin-top: -5px;
+    margin-right: -30px;
     float: right;
 }
 .restosearch{
      display: inline;
 }
+.restosearch p{
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 200;
+}
 #rsearchbtn{
-    height: 35px;
+    height: 45px;
+    width: 180px;
+    border-radius: 8px;
+    font-family: "Barlow", Sans-serif, serif;
     background-color: #df002d;
     color: white;
     border: #df002d ;
-    border-radius: 4px;
-    font-family: Vapideco, Helvetica, Arial, sans-serif;
-    font-weight: 200;
-    padding: 10px 15px;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 #followh, #followt{
     font-family: Vapideco, Helvetica, Arial, sans-serif;
