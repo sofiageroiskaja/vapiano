@@ -68,8 +68,20 @@
     <a id="prev" href="#">&#10094;</a>
     <a id="next" href="#">&#10095;</a>
 </div>
-
-<div class="wrapper"> <div class="container py-5"> <div class=" row" >
+<div class="bigolivecontainer">
+        <img src="images/megaolive.png" alt="" class="megaolivepic1">
+        <div class="bigolivetxt">
+            <p>"Chi va piano,</p>
+            <p>va sano e va</p>
+            <p>lontano"</p>
+        </div>
+        <img src="images/megaolive2.png" alt="" class="megaolivepic2">
+    <button id="bigmenubtn" onclick="window.location.href='https://vapiano.ee/menuu/';">
+        MENÜÜ
+    </button>
+</div>
+<div class="wrapper">
+    <div class="container py-5"> <div class=" row" >
     <div class="col-4">
         <div class="flip-box">
             <div class="flip-box-inner">
@@ -160,16 +172,16 @@
         </div>
     </div>
     <div class="olivecontainer">
-        <img src="images/olive1.png" alt="" class="olivepic1">
+        <img src="images/miniolive.png" alt="" class="olivepic1">
         <div class="olivetxt">
             <h4>Telli meie partnerite kaudu</h4>
         </div>
-        <img src="images/olive1.png" alt="" class="olivepic2">
+        <img src="images/miniolive2.png" alt="" class="olivepic2">
     </div>
     <div class="partners">
-        <img src="images/wolt.png" alt="" class="wolt">
-        <img src="images/takeawayvapiano.png" alt="" class="takevapiano">
-        <img src="images/bolt.png" alt="" class="bolt">
+        <a href="https://wolt.com/et/search?q=vapiano" target="_blank"><img src="images/wolt.png" alt="" class="wolt"></a>
+        <a href="https://vapiano.ee/restoranid/"><img src="images/takeawayvapiano.png" alt="" class="takevapiano"></a>
+        <a href="https://food.bolt.eu/et-ee" target="_blank"><img src="images/bolt.png" alt="" class="bolt"></a>
     </div>
 </div> </div>
 
@@ -189,7 +201,9 @@
     <div class="out">
     <div class="in" id="in3"></div>
 </div>
-    <div id="eributton"><button>Vaata rohkem pakkumisi</button></div>
+    <button id="eributton" onclick="window.location.href='https://vapiano.ee/pakkumised/';">
+        Vaata rohkem pakkumisi
+    </button>
 </div>
 
 <div class="search-container">
@@ -198,7 +212,9 @@
     <div class="restosearch">
         <h2>Leia värskus meie ümber</h2>
         <p>Kasuta restorani otsingut ja leia endale lähim restoran.</p>
-        <button id="rsearchbtn">Restorani otsing</button>
+        <button id="rsearchbtn" onclick="window.location.href='https://vapiano.ee/restoranid/';">
+            Restorani otsing
+        </button>
     </div>
 </div>
     <p id="followt">JÄLGI MEID INSTAGRAMIS</p><p id="followh">#lovevapianoestonia</p>
@@ -207,7 +223,8 @@
 <hr>
 <div class="footer">
     <div class="vaptext">
-    <img src="images/logo.png" alt="" class="footerlogo">
+        <a href="https://vapiano.ee">
+            <img src="images/logo.png" alt="" class="footerlogo"></a>
     <p>Vapiano on casual restoranikett, mis</p>
     <p>sümboliseerib värskust, naudingut ja erilist</p>
     <p>eluhoiakut. Vapiano menüü põhineb ehtsal</p>
